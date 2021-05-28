@@ -16,3 +16,11 @@ The project was inspired by the following academic journals:
 
 ## About the Project
 
+### Discrete Fourier Transform
+
+* This digital signal processing technique is used to de-noise the data. Discrete Fourier Transform Splits time series into a set of waves. These waves can be summed up to construct the original time series again!
+
+* However, objective is to remove noise from original time series.
+
+* Therefore, the concept is that, we only select a few set of waves with most amplitude -> and only use these to reconstruct the time series.
+the resulting time series will only have the most prominent characteristics of the original
