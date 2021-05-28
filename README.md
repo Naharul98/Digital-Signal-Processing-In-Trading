@@ -19,8 +19,17 @@ The project was inspired by the following academic journals:
 ### Discrete Fourier Transform
 
 * This digital signal processing technique is used to de-noise the data. Discrete Fourier Transform Splits time series into a set of waves. These waves can be summed up to construct the original time series again!
-
 * However, objective is to remove noise from original time series.
-
 * Therefore, the concept is that, we only select a few set of waves with most amplitude -> and only use these to reconstruct the time series.
-the resulting time series will only have the most prominent characteristics of the original
+the resulting time series will only have the most prominent characteristics of the original.
+
+### Trading Strategy Overview
+
+1. Transform original time series to find a repeating pattern/anomaly.
+2. Check for stationarity using Augmented Dickey Fuller test
+3. If not stationary, then detrend the data to remove seasonal factors to make it stationary
+4. Eliminate noise in the pattern to better model it, this is where digital signal processing come in
+4. Apply Discrete Fourier Transform to split the time series into different wave functions
+5. Only take the most prevalent wave functions and rebuild the time series. This would theoretically remove noise within the time series.
+6. Try to take advantage of this repeating pattern in the market
+7. Incorporate risk management measures in the strategy
