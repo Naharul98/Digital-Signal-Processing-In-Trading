@@ -1,5 +1,5 @@
 # Digital-Signal-Processing-In-Trading
-Transform asset price time series into stationary form and apply Discrete Fourier Transform to eliminate noise and identify repeating patterns to exploit and backtest.
+Transform asset price time series into stationary form to identify repeating patterns and apply Discrete Fourier Transform to eliminate noise and model the pattern to exploit and backtest.
 
 ## Inspiration from Research Journals
 The project was inspired by the following academic journals:
@@ -13,3 +13,6 @@ The project was inspired by the following academic journals:
 ## Screenshots
 ![Example ScreenShot](https://github.com/Naharul98/Digital-Signal-Processing-In-Trading/blob/main/Screenshots/screenshot2.jpg?raw=true)
 ![Example ScreenShot2](https://github.com/Naharul98/Digital-Signal-Processing-In-Trading/blob/main/Screenshots/screenshot1.jpg?raw=true)
+
+## About the Project
+
