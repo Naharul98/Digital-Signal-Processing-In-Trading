@@ -1,2 +1,2 @@
 # Digital-Signal-Processing-In-Trading
-Using Discrete Fourier transform to eliminate noise in asset price time series and identify repeating patterns to exploit and backtest.
+Transform asset price time series into stationary form and apply Discrete Fourier Transform to eliminate noise and identify repeating patterns to exploit and backtest.
